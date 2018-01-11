@@ -1,3 +1,9 @@
-[guest]=guest
-email=guest@localhost
+This is a db_github 
+    Go to https://github.com/ and create a new repository db_github​
+    Add the contents of your existing db_git repository to your newly created remote one.​
+git remote add origin https://github.com/carolinevdb/db_github.git​
+git push -u origin master​
 
+Vul in username: 
+
+Vul in psswd: D
