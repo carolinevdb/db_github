@@ -1,9 +1,21 @@
-This is a db_github 
-    Go to https://github.com/ and create a new repository db_github​
-    Add the contents of your existing db_git repository to your newly created remote one.​
+This is a db_github. to create pathway to make an github working
+    
+Go to https://github.com/ and create a new repository db_github​
+Add the contents of your existing db_git repository to your newly created remote one.​
 git remote add origin https://github.com/carolinevdb/db_github.git​
 git push -u origin master​
+Fill in username: 
+Fill in psswd:
 
-Vul in username: 
+This generate the following:
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 19.22 MiB | 2.24 MiB/s, done.
+Total 12 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: warning: See http://git.io/iEPt8g for more information.
+remote: warning: File bioinf_testdb.sql is 61.45 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+To https://github.com/carolinevdb/db_github.git
 
-Vul in psswd: D
