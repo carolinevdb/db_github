@@ -1,0 +1,12 @@
+1)SELECT equipment_id, purchase_date FROM equipment WHERE purchase_date > 1985-01-01;
+2)select concat (last_name, ,firstanem) as name,trainings  
+3)select traings, student, 
+4) SELECT training, subject, coun(lab-mebers_id
+solution:
+1)SELECT eq_name, purchase_date, ex_name from equipment eq join experiment ex on eq.equipment_id = ex.equipment_id where purchase_date > '1985-01-01';
+2)SELECT * FROM lab_members where MONTH(birth_date);=4;
+selcect concat(fistname, '',lastname) as name, count(*) as number_of_experiments from experiment ex join lab_members lm on ex.fomed_by=lm.members_id Group By name;
+4)selcect distinct(eq_name), stutus , ex_name from results r join experiment ex on r.experiment=ex.experiment_id join equipment on ex.equimpment_id=eq.equipment_id where status='compleleted';
+5)select concacat(firsname,'',lastname) as name, ex_name, stauts from results r join experiment ex on r.experiment=ex.experiment_id join lab_members lm on ex.perfomed_by =lm.meember_id where status='failed';
+6) select concat(fistname,'',lastname) as name, subject from lab_members lm join mebers_in_training mit on members_id=mit.memebets_id join traings t on mit.traing_id=t.training_id;
+7) select subject, count(*) as number os participants from trainings t join members in training mit on t.traing_id=mit.training_id join lab_members lm on mit.members_id=lm.members_id GROUP BY subjext;
